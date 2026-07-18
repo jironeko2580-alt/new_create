@@ -47,8 +47,9 @@ Unityエディタ内で以下を設定:
 
 - `Edit > Project Settings > Player > iOS > Resolution and Presentation`
   - Default Orientation を **Portrait** に設定
-- `File > Build Settings` で Platform一覧から **iOS** を選択し、「Switch Platform」を実行
+- `File > Build Profiles`（Unity 6以降。旧称 Build Settings）で Platform一覧から **iOS** を選択し、「Switch Platform」を実行
   - 初回はアセットの再インポートなどで時間がかかる
+  - 事前にUnity HubでiOS Build Supportモジュールをインストールしておく必要あり（未インストールだとiOSが一覧に出ない）
 
 ## Step 6. Bundle Identifierの設定
 
